@@ -13,6 +13,7 @@
 		81D4D6C3284381CA008BAA19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D4D6C2284381CA008BAA19 /* Preview Assets.xcassets */; };
 		81D4D6CE284381CB008BAA19 /* PranaBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4D6CD284381CB008BAA19 /* PranaBrowserTests.swift */; };
 		81D4D6D9284381CB008BAA19 /* PranaBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4D6D8284381CB008BAA19 /* PranaBrowserUITests.swift */; };
+		81D4D6E72843852E008BAA19 /* PranaBrowserStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D4D6E62843852E008BAA19 /* PranaBrowserStateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		81D4D6D4284381CB008BAA19 /* PranaBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PranaBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D4D6D8284381CB008BAA19 /* PranaBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PranaBrowserUITests.swift; sourceTree = "<group>"; };
 		81D4D6DA284381CB008BAA19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D4D6E62843852E008BAA19 /* PranaBrowserStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PranaBrowserStateModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				81D4D6BF284381CA008BAA19 /* Assets.xcassets */,
 				81D4D6C4284381CA008BAA19 /* Info.plist */,
 				81D4D6C1284381CA008BAA19 /* Preview Content */,
+				81D4D6E62843852E008BAA19 /* PranaBrowserStateModel.swift */,
 			);
 			path = PranaBrowser;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				81D4D6BE284381C5008BAA19 /* ContentView.swift in Sources */,
 				81D4D6BC284381C5008BAA19 /* PranaBrowserApp.swift in Sources */,
+				81D4D6E72843852E008BAA19 /* PranaBrowserStateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
